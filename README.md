@@ -19,18 +19,18 @@ STEP:9  In the Design Object List Window, enter the pin location for each pin in
 STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
-# **Logic Diagram**
-# 2 bit Multiplier
+# **Logic Diagram**:
+# 2 bit Multiplier:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 
-# **4 Bit Multiplier**
+# **4 Bit Multiplier**:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
 
 
-# **Verilog code**
-# 2-BIT MULTIPLIER
+# **Verilog code**:
+# 2-BIT MULTIPLIER:
 module ha(a,b,sum,c);
 
 input a,b;
@@ -59,7 +59,7 @@ ha ha2(a[1] &b[1],w1,c[2],c[3]);
 
 endmodule
 
-# 4-BIT MULTIPLIER
+# 4-BIT MULTIPLIER:
 module ha(a,b,c,s);
 
 input a,b;
@@ -130,14 +130,14 @@ endmodule
 
 
 
-# **Output Waveform**
-# 2-BIT MULTIPLIER
+# **Output Waveform**:
+# 2-BIT MULTIPLIER:
 ![image](https://github.com/Sanjay-E02/VLSI-LAB-EXP-3/assets/161813889/738ca93f-6a55-4833-910a-661ec62e87fb)
 
-# 4-BIT MULTIPLIER
+# 4-BIT MULTIPLIER:
 ![image](https://github.com/Sanjay-E02/VLSI-LAB-EXP-3/assets/161813889/c05abf22-dc40-43ea-9edb-68549a5fe959)
 
-# **Result**
+# **Result**:
 To simulate and synthesis multiplier using Xilinx ISE is completed.
 
 
